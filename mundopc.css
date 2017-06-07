@@ -223,12 +223,16 @@ nav {
 		background-color: #FC6468;
 	}
 
+<<<<<<< HEAD
 --------------------------
 
+=======
+>>>>>>> e4b70b4cdbac560de9850034c22d1aee6065d8c0
 h5 {
     display:inline-block;
 }
 
+<<<<<<< HEAD
 .box {
 	display: inline-flex;
 	flex-direction: column;
@@ -250,6 +254,10 @@ img {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
+=======
+box {
+        
+>>>>>>> e4b70b4cdbac560de9850034c22d1aee6065d8c0
 }
 
 input{
@@ -259,4 +267,8 @@ input{
 
 input {
     color: black !important;
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> e4b70b4cdbac560de9850034c22d1aee6065d8c0
