@@ -167,7 +167,7 @@ header img {
 header, section {
     height: 100vh;
 }
-  
+
 nav {
  position: fixed;    /* menu fijo */
   z-index: 100;
@@ -180,61 +180,75 @@ nav {
 ---------------- /* acordeon */
 
 
-	.accordion {
-		background: linear-gradient(to bottom right, white, #F8F8F8);
-		max-width: 400px;
-		background: white;
-		margin: 0 auto;
-		box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
-	}
+.accordion {
+	background: linear-gradient(to bottom right, white, #F8F8F8);
+	max-width: 400px;
+	background: white;
+	margin: 0 auto;
+	box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+}
 
-	.accordion-header {
-		border-bottom: 1px solid #DDE0E7;
-		color: darkred;
-		cursor: pointer;
-		font-weight: 700;
-		padding: 1.5rem;
-	}
+.accordion-header {
+	border-bottom: 1px solid #DDE0E7;
+	color: darkred;
+	cursor: pointer;
+	font-weight: 700;
+	padding: 1.5rem;
+}
 
-	.accordion-header:hover {
-		background: #F6F7F9;
-	}
+.accordion-header:hover {
+	background: #F6F7F9;
+}
 
-	.accordion-content {
-		display: none;
-		border-bottom: 1px solid #DDE0E7;
-		background: #F6F7F9;
-		padding: 1.5rem;
-		color: black;
-	}
+.accordion-content {
+	display: none;
+	border-bottom: 1px solid #DDE0E7;
+	background: #F6F7F9;
+	padding: 1.5rem;
+	color: black;
+}
 
-	.accordion-header::before {
-		content: '';
-		vertical-align: middle;
-		display: inline-block;
-		width: .75rem;
-		height: .75rem;
-		border-radius: 50%;
-		background-color: whitesmoke;
-		margin-right: .75rem;
-	}
+.accordion-header::before {
+	content: '';
+	vertical-align: middle;
+	display: inline-block;
+	width: .75rem;
+	height: .75rem;
+	border-radius: 50%;
+	background-color: whitesmoke;
+	margin-right: .75rem;
+}
 
-	.active.accordion-header::before {
-		background-color: #FC6468;
-	}
+.active.accordion-header::before {
+	background-color: #FC6468;
+}
 
 h5 {
     display:inline-block;
 }
 
-box {
-        
+.box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+    width: 300px;
+    height: 400px;
+    }
+
+img {
+	width: 100%;
+	height: auto;
+	margin: 40px auto;
+	padding: 0px 12px;
+
 }
 
-input{
-    color:black
+.fotofondo {
+	background-image: url("http://conceptodefinicion.de/wp-content/uploads/2016/10/Programaci%C3%B3n-Inform%C3%A1tica.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 }
-
 
 input {
     color: black !important;

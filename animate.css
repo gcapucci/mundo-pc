@@ -85,7 +85,6 @@
 }
 
 .pulse {
-  
   animation-name: pulse;
 }
 
@@ -568,7 +567,6 @@
 }
 
 .fadeIn {
-  padding-left: 550px;
   animation-name: fadeIn;
 }
 
@@ -1294,7 +1292,6 @@
 }
 
 .zoomIn {
-  padding-left: 600px;
   animation-name: zoomIn;
 }
 
@@ -1313,7 +1310,6 @@
 }
 
 .zoomInDown {
-  padding-left: 600px;
   animation-name: zoomInDown;
 }
 
