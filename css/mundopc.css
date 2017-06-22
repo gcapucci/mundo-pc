@@ -1,3 +1,4 @@
+<<<<<<< HEAD:css/mundopc.css
 * {
   padding: 0;
   margin: 0;
@@ -366,4 +367,378 @@ input {
  a {
     color: black;
 }
+=======
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.rojo {
+  color:azure;
+  margin-left: 500px;
+  font-family: sans-serif;
+  }
+
+}
+
+.dropdown {
+   padding: 0;
+
+}
+
+.dropdown li {
+    display: inline-block;
+    }
+
+nav {
+   padding-top: 10px;
+   padding-bottom: 10px;
+
+
+
+}
+-----------------------------------
+/* Menu desplegable */
+
+view compiled css
+
+.sub-menu{
+ display:none;
+}
+
+li.sub-menu-parent:hover .sub-menu {
+ display: block;
+}
+
+.sub-menu-parent {
+    position: relative;
+}
+
+
+.sub-menu {
+  visibility: hidden; /* Oculta el submenu */
+  opacity: 10;
+  position: absolute;
+  top: 100%;
+  left: -10%;
+  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* El último valor es el tiempo de transición para la visibilidad */
+  font-size: 20px;
+  }
+
+.sub-menu-parent:hover .sub-menu {
+  visibility: visible; /* Reaccion sub-menu */
+  opacity: 1;
+  left: 0;
+  transition-delay: 0s; /*
+Esto elimina el retardo de transición para que el menú sea visible mientras que la transición de otros estilos*/
+}
+
+
+--------------------------------
+
+
+.dropwdown li a  {
+ font-family: Arial;
+ font-size:16px;
+ text-decoration: none;
+ float:left;
+ padding: 10px;
+ color: #fff;
+ margin-right: 150px;
+
+}
+
+body {
+<<<<<<< HEAD:css/mundopc.css
+  background-image: url('C:Users/pc/Desktop/Mundo Pc/img/madera.jpg');
+=======
+  background-image: url('https://mundodigital2014.files.wordpress.com/2014/07/7d2.jpg');
+>>>>>>> c16f28164d170e1cb6c54b6b4fe42b59690f4c23:mundopc.css
+  background-repeat:round;
+  background-size: cover;
+  color:whitesmoke;
+  width: 100%;
+  height: 100%;
+    }
+
+a > h1 {
+
+  font-size: 25px;
+
+}
+
+h1 > p {
+    color:whitesmoke;
+    margin-left: 400px;
+    border-left: solid;
+    border-left-width: 0px;
+    margin-left: 100px;
+    padding-left: 600px;
+
+    }
+
+.subtitulo {
+    padding-top: 100;
+    font-size: 45px;
+    padding-left: 300px;
+    font-family: sans-serif;
+}
+
+h2 > p > em {
+    margin-left: 280px;
+    padding-left: 200px;"
+   }
+
+
+
+div {
+    margin-left: 0px;
+    }
+
+.contacto {
+    padding-left: 700px;
+
+}
+
+ul > h4 {
+    font-family: fantasy;
+    margin-left: 250px;
+}
+
+a:hover {
+     font-size: 15px;
+     opacity: 0.5;
+
+ }
+
+lu, li {
+    padding-left: 100px;
+    padding-right: 80;
+    font-family: cursive;
+}
+
+.color {
+  width:100%;
+  height:100%;                             /* imagen de fondo */
+  background-color:rgba(0,0,0,0.7);
+  color:#fff;
+}
+
+
+header {
+  background-color: rgba (0,0,0,0.9);
+  width: 100%;
+  }
+
+header img {
+    position: absolute;
+    bottom: 0
+}
+
+header, section {
+    height: 100vh;
+}
+
+nav {
+ position: fixed;    /* menu fijo */
+  z-index: 100;
+    }
+
+.encruadro1{
+    height: 400px;
+}
+
+---------------- /* acordeon */
+
+
+.accordion {
+	background: linear-gradient(to bottom right, white, #F8F8F8);
+	max-width: 400px;
+	background: white;
+	margin: 0 auto;
+	box-shadow: 0 15px 20px -15px rgba(0, 0, 0, 0.3), 0 35px 50px -25px rgba(0, 0, 0, 0.3), 0 85px 60px -25px rgba(0, 0, 0, 0.1);
+}
+
+.accordion-header {
+	border-bottom: 1px solid #DDE0E7;
+	color: darkred;
+	cursor: pointer;
+	font-weight: 700;
+	padding: 1.5rem;
+}
+
+.accordion-header:hover {
+	background: #F6F7F9;
+}
+
+.accordion-content {
+	display: none;
+	border-bottom: 1px solid #DDE0E7;
+	background: #F6F7F9;
+	padding: 1.5rem;
+	color: black;
+}
+
+.accordion-header::before {
+	content: '';
+	vertical-align: middle;
+	display: inline-block;
+	width: .75rem;
+	height: .75rem;
+	border-radius: 50%;
+	background-color: whitesmoke;
+	margin-right: .75rem;
+}
+
+.active.accordion-header::before {
+	background-color: #FC6468;
+}
+
+h5 {
+    display:inline-block;
+}
+
+.box {
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+    width: 300px;
+    height: 400px;
+    }
+
+img {
+	width: 100%;
+	height: auto;
+	margin: 40px auto;
+	padding: 0px 12px;
+
+}
+
+.fotofondo {
+	background-image: url("http://conceptodefinicion.de/wp-content/uploads/2016/10/Programaci%C3%B3n-Inform%C3%A1tica.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}   
+
+input{
+  color:black
+}
+
+input {
+    color: black !important;
+}
+
+.navbar-custom {
+    background: #2C3E50;
+    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    border: none;
+}
+
+.navbar-custom a:focus {
+    outline: none;
+}
+
+.navbar-custom .navbar-brand {
+    color: white;
+}
+
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+    color: white;
+}
+
+.navbar-custom .navbar-nav {
+    letter-spacing: 1px;
+}
+
+.navbar-custom .navbar-nav li a {
+    color: white;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+    color: #18BC9C;
+    outline: none;
+}
+
+.navbar-custom .navbar-nav li a:focus,
+.navbar-custom .navbar-nav li a:active {
+    color: white;
+}
+
+.navbar-custom .navbar-nav li.active a {
+    color: white;
+    background: #18BC9C;
+}
+
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active {
+    color: white;
+    background: #18BC9C;
+}
+
+.navbar-custom .navbar-toggle {
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+    border-color: white;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+    background-color: #18BC9C;
+    color: white;
+    border-color: #18BC9C;
+}
+
+@media (min-width: 768px) {
+    .navbar-custom {
+        padding: 25px 0;
+        -webkit-transition: padding 0.3s;
+        -moz-transition: padding 0.3s;
+        transition: padding 0.3s;
+    }
+    .navbar-custom .navbar-brand {
+        font-size: 2em;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    .navbar-custom.affix {
+        padding: 10px 0;
+    }
+    .navbar-custom.affix .navbar-brand {
+        font-size: 1.5em;
+    }
+
+.navbar-default {
+    background-color: #000000;
+    border-color: black; 
+    opacity: 0.7;
+}
+.navbar-default .navbar-brand {
+    color: #fff;
+}
+
+.navbar-default {
+    background-color: #000000;
+    border-color: black;
+    opacity: 0.6;
+  }
+@media screen and (min-width: 770px) {
+ a {
+    color: white;
+}
+}
+
+@media screen and (max-width: 770px) {
+ a {
+    color: black;
+}
+>>>>>>> b9aad5128dc42190f50effd2e07c06e73cdfbd38:css/mundopc.css
 }
