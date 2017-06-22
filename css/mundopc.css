@@ -79,7 +79,11 @@ Esto elimina el retardo de transición para que el menú sea visible mientras qu
 }
 
 body {
+<<<<<<< HEAD:css/mundopc.css
+  background-image: url('C:Users/pc/Desktop/Mundo Pc/img/madera.jpg');
+=======
   background-image: url('https://mundodigital2014.files.wordpress.com/2014/07/7d2.jpg');
+>>>>>>> c16f28164d170e1cb6c54b6b4fe42b59690f4c23:mundopc.css
   background-repeat:round;
   background-size: cover;
   color:whitesmoke;
