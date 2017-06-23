@@ -103,12 +103,12 @@ h1 > p {
 
     }
 
-.subtitulo {
-    padding-top: 100;
-    font-size: 45px;
-    padding-left: 300px;
-    font-family: sans-serif;
-}
+.subtitulo p {
+    padding-top: 230px;
+    font-size: 25px;
+    font-family:sans-serif;
+    padding-left: 30px;
+  }
 
 h2 > p > em {
     margin-left: 280px;
@@ -187,9 +187,9 @@ nav {
 
 .accordion-header {
 	border-bottom: 1px solid #DDE0E7;
-	color: darkred;
+	color: #080808;
 	cursor: pointer;
-	font-weight: 700;
+	font-weight: 400;
 	padding: 1.5rem;
 }
 
@@ -222,6 +222,7 @@ nav {
 
 h5 {
     display:inline-block;
+    font-size: 30px;
 }
 
 .box {
@@ -240,13 +241,6 @@ img {
 
 }
 
-.fotofondo {
-	background-image: url("../img/tecladofondo.jpg");
-	background-repeat: no-repeat;
-	background-size: cover;
-	background-attachment: fixed;
-}   
-
 input{
   color:black
 }
@@ -257,7 +251,7 @@ input {
 
 .navbar-custom {
     background: #2C3E50;
-    font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Montserrat, Helvetica Neue, Helvetica, Arial, sans-serif" ;
     text-transform: uppercase;
     font-weight: 700;
     border: none;
@@ -469,6 +463,7 @@ h1 > p {
     border-left-width: 0px;
     margin-left: 100px;
     padding-left: 600px;
+    color: white;
 
     }
 
@@ -481,7 +476,8 @@ h1 > p {
 
 h2 > p > em {
     margin-left: 280px;
-    padding-left: 200px;"
+    padding-left: 200px;
+    color: white;
    }
 
 
@@ -510,8 +506,13 @@ lu, li {
     padding-left: 100px;
     padding-right: 80;
     font-family: cursive;
-}
+    color: white;
+    }
 
+.fotofondo3 h2 lu, li  {
+        color: #2e4392;
+    }  
+    
 .color {
   width:100%;
   height:100%;                             /* imagen de fondo */
@@ -531,7 +532,7 @@ header img {
 }
 
 header, section {
-    height: 100vh;
+    height: 90vh;
 }
 
 nav {
@@ -556,9 +557,9 @@ nav {
 
 .accordion-header {
 	border-bottom: 1px solid #DDE0E7;
-	color: darkred;
+	color: #273316;
 	cursor: pointer;
-	font-weight: 700;
+	font-weight: 400;
 	padding: 1.5rem;
 }
 
@@ -585,12 +586,13 @@ nav {
 	margin-right: .75rem;
 }
 
-.active.accordion-header::before {
+.active.accordion-header:"before" {
 	background-color: #FC6468;
 }
 
 h5 {
     display:inline-block;
+    color: white;
 }
 
 .box {
@@ -610,7 +612,7 @@ img {
 }
 
 .fotofondo {
-	background-image: url("http://conceptodefinicion.de/wp-content/uploads/2016/10/Programaci%C3%B3n-Inform%C3%A1tica.jpg");
+	background-image: url("../img/tecladofondo.jpg");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
@@ -736,3 +738,52 @@ input {
     color: black;
 }
 }
+
+.fotofondo {
+	background-image: url("../img/tecladofondo.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}   
+
+.fotofondo1 {
+	background-image: url("../img/fondopc.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
+}   
+
+.fotofondo2 {
+    background-color: #296496;
+}
+    
+.fotofondo3 {
+    background-color: white;      
+    }
+    
+.fotofondo3 h1 {
+    color: #2e4392;
+    padding-left: 350px;
+    }  
+    
+.fotofondo1 lu h2 {
+        color: white;
+    }
+
+    .fotofondo4 {
+    background-image: url("../img/fondomadera.jpg");
+    background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixe;
+    }
+
+.fotofondo4 h1 {
+        color: white;
+        padding-left: 400px;
+    }
+
+.colortext {
+       font-size: 20px;
+       padding-left: 200px;
+       padding-top: 150px;
+    }
