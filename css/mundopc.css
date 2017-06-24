@@ -79,6 +79,7 @@ Esto elimina el retardo de transición para que el menú sea visible mientras qu
 }
 
 body {
+  background-image: url('../img/madera.jpg');
   background-repeat:round;
   background-size: cover;
   color:whitesmoke;
@@ -111,7 +112,8 @@ h1 > p {
 
 h2 > p > em {
     margin-left: 280px;
-    padding-left: 200px;"
+    padding-left: 200px;
+    font-size: 28px;
    }
 
 
@@ -199,7 +201,7 @@ nav {
 .accordion-content {
 	display: none;
 	border-bottom: 1px solid #DDE0E7;
-	background: #F6F7F9;
+	background: black  ;
 	padding: 1.5rem;
 	color: black;
 }
@@ -216,7 +218,7 @@ nav {
 }
 
 .active.accordion-header::before {
-	background-color: #FC6468;
+	background-color: #fff5f5;
 }
 
 h5 {
@@ -441,7 +443,9 @@ Esto elimina el retardo de transición para que el menú sea visible mientras qu
 }
 
 body {
-  background-color: white;
+  background-image: url('../img/madera.jpg');
+  background-repeat:round;
+  background-size: cover;
   color:whitesmoke;
   width: 100%;
   height: 100%;
@@ -473,7 +477,7 @@ h1 > p {
 
 h2 > p > em {
     margin-left: 280px;
-    padding-left: 200px;
+    padding-left: 261px;
     color: white;
    }
 
@@ -504,6 +508,7 @@ lu, li {
     padding-right: 80;
     font-family: cursive;
     color: white;
+    font-size: 21px;
     }
 
 .fotofondo3 h2 lu, li  {
@@ -567,9 +572,10 @@ nav {
 .accordion-content {
 	display: none;
 	border-bottom: 1px solid #DDE0E7;
-	background: #F6F7F9;
+	background: #404142;
 	padding: 1.5rem;
-	color: black;
+	color: white;
+    font-size: 20px;
 }
 
 .accordion-header::before {
@@ -748,11 +754,10 @@ input {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-    }   
+}   
 
-    
 .fotofondo2 {
-    background-color: #1c2b3e;
+    background-color: #404142;
 }
     
 .fotofondo3 {
@@ -761,7 +766,11 @@ input {
     
 .fotofondo3 h1 {
     color: #2e4392;
-    padding-left: 350px;
+    padding-left: 490px;
+    font-size: 20px;
+    padding-top: 27px;
+    font-family: cursive;
+  }
     }  
     
 .fotofondo1 lu h2 {
@@ -772,8 +781,8 @@ input {
     background-image: url("../img/fondomadera.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixed;
-	}
+	background-attachment: fixe;
+    }
 
 .fotofondo4 h1 {
         color: white;
@@ -784,4 +793,10 @@ input {
        font-size: 20px;
        padding-left: 200px;
        padding-top: 150px;
+    }
+    
+.accordion-header:hover{
+        background-color: grey;
+        transition: background-color 2.5s;
+            
     }
