@@ -79,7 +79,6 @@ Esto elimina el retardo de transición para que el menú sea visible mientras qu
 }
 
 body {
-  background-image: url('../img/madera.jpg');
   background-repeat:round;
   background-size: cover;
   color:whitesmoke;
@@ -442,9 +441,7 @@ Esto elimina el retardo de transición para que el menú sea visible mientras qu
 }
 
 body {
-  background-image: url('../img/madera.jpg');
-  background-repeat:round;
-  background-size: cover;
+  background-color: white;
   color:whitesmoke;
   width: 100%;
   height: 100%;
@@ -751,10 +748,11 @@ input {
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-attachment: fixed;
-}   
+    }   
 
+    
 .fotofondo2 {
-    background-color: #296496;
+    background-color: #1c2b3e;
 }
     
 .fotofondo3 {
@@ -774,8 +772,8 @@ input {
     background-image: url("../img/fondomadera.jpg");
     background-repeat: no-repeat;
 	background-size: cover;
-	background-attachment: fixe;
-    }
+	background-attachment: fixed;
+	}
 
 .fotofondo4 h1 {
         color: white;
