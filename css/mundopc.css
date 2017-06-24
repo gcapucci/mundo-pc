@@ -51,7 +51,7 @@ li.sub-menu-parent:hover .sub-menu {
   position: absolute;
   top: 100%;
   left: -10%;
-  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* El último valor es el tiempo de transición para la visibilidad */
+  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* El Ãºltimo valor es el tiempo de transiciÃ³n para la visibilidad */
   font-size: 20px;
   }
 
@@ -60,7 +60,7 @@ li.sub-menu-parent:hover .sub-menu {
   opacity: 1;
   left: 0;
   transition-delay: 0s; /*
-Esto elimina el retardo de transición para que el menú sea visible mientras que la transición de otros estilos*/
+Esto elimina el retardo de transiciÃ³n para que el menÃº sea visible mientras que la transiciÃ³n de otros estilos*/
 }
 
 
@@ -415,7 +415,7 @@ li.sub-menu-parent:hover .sub-menu {
   position: absolute;
   top: 100%;
   left: -10%;
-  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* El último valor es el tiempo de transición para la visibilidad */
+  transition: all 0.5s ease 0s, visibility 0s linear 0.5s; /* El Ãºltimo valor es el tiempo de transiciÃ³n para la visibilidad */
   font-size: 20px;
   }
 
@@ -424,7 +424,7 @@ li.sub-menu-parent:hover .sub-menu {
   opacity: 1;
   left: 0;
   transition-delay: 0s; /*
-Esto elimina el retardo de transición para que el menú sea visible mientras que la transición de otros estilos*/
+Esto elimina el retardo de transiciÃ³n para que el menÃº sea visible mientras que la transiciÃ³n de otros estilos*/
 }
 
 
