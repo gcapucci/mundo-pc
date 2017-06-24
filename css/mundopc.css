@@ -21,9 +21,7 @@
     }
 
 nav {
-    margin: 0px;
-width: 100%; 
-   padding-top: 0px;
+   padding-top: 10px;
    padding-bottom: 10px;
 
 
@@ -114,7 +112,8 @@ h1 > p {
 
 h2 > p > em {
     margin-left: 280px;
-    padding-left: 200px;"
+    padding-left: 200px;
+    font-size: 28px;
    }
 
 
@@ -140,8 +139,8 @@ a:hover {
  }
 
 lu, li {
-    padding-left: 50px !important;
-    padding-right: 70px;
+    padding-left: 100px;
+    padding-right: 80;
     font-family: cursive;
 }
 
@@ -202,7 +201,7 @@ nav {
 .accordion-content {
 	display: none;
 	border-bottom: 1px solid #DDE0E7;
-	background: #F6F7F9;
+	background: black  ;
 	padding: 1.5rem;
 	color: black;
 }
@@ -219,7 +218,7 @@ nav {
 }
 
 .active.accordion-header::before {
-	background-color: #FC6468;
+	background-color: #fff5f5;
 }
 
 h5 {
@@ -386,17 +385,12 @@ input {
     }
 
 nav {
-   padding-top: 0px;
+   padding-top: 10px;
    padding-bottom: 10px;
+
+
+
 }
-    
-    .titulo{
-        padding: 200px;
-        font-size: 100px;
-        margin-top: 0px;
-        text-align: center;
-        
-    }
 -----------------------------------
 /* Menu desplegable */
 
@@ -475,14 +469,15 @@ h1 > p {
     }
 
 .subtitulo {
-    margin: 0px;
+    padding-top: 100;
     font-size: 45px;
+    padding-left: 300px;
     font-family: sans-serif;
 }
 
 h2 > p > em {
     margin-left: 280px;
-    padding-left: 200px;
+    padding-left: 261px;
     color: white;
    }
 
@@ -513,6 +508,7 @@ lu, li {
     padding-right: 80;
     font-family: cursive;
     color: white;
+    font-size: 21px;
     }
 
 .fotofondo3 h2 lu, li  {
@@ -576,9 +572,10 @@ nav {
 .accordion-content {
 	display: none;
 	border-bottom: 1px solid #DDE0E7;
-	background: #F6F7F9;
+	background: #404142;
 	padding: 1.5rem;
-	color: black;
+	color: white;
+    font-size: 20px;
 }
 
 .accordion-header::before {
@@ -760,7 +757,7 @@ input {
 }   
 
 .fotofondo2 {
-    background-color: #296496;
+    background-color: #404142;
 }
     
 .fotofondo3 {
@@ -769,7 +766,11 @@ input {
     
 .fotofondo3 h1 {
     color: #2e4392;
-    padding-left: 350px;
+    padding-left: 490px;
+    font-size: 20px;
+    padding-top: 27px;
+    font-family: cursive;
+  }
     }  
     
 .fotofondo1 lu h2 {
@@ -792,4 +793,10 @@ input {
        font-size: 20px;
        padding-left: 200px;
        padding-top: 150px;
+    }
+    
+.accordion-header:hover{
+        background-color: grey;
+        transition: background-color 2.5s;
+            
     }
