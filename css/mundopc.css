@@ -21,7 +21,9 @@
     }
 
 nav {
-   padding-top: 10px;
+    margin: 0px;
+width: 100%; 
+   padding-top: 0px;
    padding-bottom: 10px;
 
 
@@ -139,8 +141,8 @@ a:hover {
  }
 
 lu, li {
-    padding-left: 100px;
-    padding-right: 80;
+    padding-left: 50px !important;
+    padding-right: 70px;
     font-family: cursive;
 }
 
@@ -385,12 +387,17 @@ input {
     }
 
 nav {
-   padding-top: 10px;
+   padding-top: 0px;
    padding-bottom: 10px;
-
-
-
 }
+    
+    .titulo{
+        padding: 200px;
+        font-size: 100px;
+        margin-top: 0px;
+        text-align: center;
+        
+    }
 -----------------------------------
 /* Menu desplegable */
 
@@ -469,9 +476,8 @@ h1 > p {
     }
 
 .subtitulo {
-    padding-top: 100;
+    margin: 0px;
     font-size: 45px;
-    padding-left: 300px;
     font-family: sans-serif;
 }
 
