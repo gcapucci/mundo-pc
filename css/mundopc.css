@@ -519,8 +519,9 @@ lu, li {
     font-size: 21px;
     }
 
-.fotofondo3 h2 lu, li  {
-        color: #2e4392;
+.fotofondo3 h2 lu, ul  {
+    color: #2e4392;
+    font-size: 20px;
     }  
     
 .color {
@@ -807,4 +808,24 @@ input {
         background-color: grey;
         transition: background-color 2.5s;
             
+    }
+    
+    .menufinal {
+        text-shadow: 0 0 0px #676161;
+    background-color: white;
+    box-shadow: 0 0 8px 10px #807b7b;
+    padding-left: 179px;
+    }
+    
+    .contactate h1 p {
+        font-size: 26px;
+        padding-left: 0px;
+        color: black;
+    }
+    
+    .menufinal2 {
+           text-shadow: 0 0 0px #676161;
+    background-color: white;
+    box-shadow: 0 0 8px 10px #807b7b;
+    padding-left: 620px;
     }
